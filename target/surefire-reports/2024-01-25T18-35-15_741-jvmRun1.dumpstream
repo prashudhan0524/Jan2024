@@ -1,0 +1,259 @@
+# Created on 2024-01-25T18:35:31.978
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:386)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+# Created on 2024-01-25T18:35:34.817
+Unexpected IOException with stream: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.227)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GANESH', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.227, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\win1o\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51259}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2d1370b34445056cbedb898292460def
+*** Element info: {Using=xpath, value=//*[@id='input-password']}
+
+# Created on 2024-01-25T18:35:34.838
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T18:35:39.870
+Unexpected IOException with stream: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.227)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GANESH', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.227, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\win1o\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51259}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2d1370b34445056cbedb898292460def
+*** Element info: {Using=xpath, value=//*[@type='submit']}
+
+# Created on 2024-01-25T18:35:39.872
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T18:35:39.904
+Unexpected IOException with stream: --------------Scenario Ends-----------------
+
+
+# Created on 2024-01-25T18:35:40.193
+Unexpected IOException: 8,1,runner.RunTest,runScenario(runner.RunTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=120.0.6099.227)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'GANESH'\002C ip: '192.168.1.9'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_121'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 120.0.6099.227\002C chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66...\002C userDataDir: C:\005CUsers\005Cwin1o\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:51259}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 2d1370b34445056cbedb898292460def\000A*** Element info: {Using=xpath\002C value=(//*[text()='My Account'])[4]},null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=120.0.6099.227)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'GANESH'\002C ip: '192.168.1.9'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_121'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 120.0.6099.227\002C chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66...\002C userDataDir: C:\005CUsers\005Cwin1o\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:51259}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 2d1370b34445056cbedb898292460def\000A*** Element info: {Using=xpath\002C value=(//*[text()='My Account'])[4]},RunTest.runScenario \00BB NoSuchWindow no such window: target window already close...,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=120.0.6099.227)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'GANESH'\002C ip: '192.168.1.9'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_121'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 120.0.6099.227\002C chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66...\002C userDataDir: C:\005CUsers\005Cwin1o\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:51259}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 2d1370b34445056cbedb898292460def\000A*** Element info: {Using=xpath\002C value=(//*[text()='My Account'])[4]}\000A
+
+
+# Created on 2024-01-25T18:35:40.204
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T18:35:40.206
+Unexpected IOException with stream: Failed scenarios:
+
+
+# Created on 2024-01-25T18:35:40.207
+Unexpected IOException with stream: file:///G:/ProjectJan2024Batch/NinjaStore/src/test/resources/Business_Logic/Login.feature:17
+
+# Created on 2024-01-25T18:35:40.208
+Unexpected IOException with stream: # Login functionality with valid username and valid password
+
+
+# Created on 2024-01-25T18:35:40.209
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T18:35:40.210
+Unexpected IOException with stream: 1
+
+# Created on 2024-01-25T18:35:40.211
+Unexpected IOException with stream:  Scenarios (
+
+# Created on 2024-01-25T18:35:40.212
+Unexpected IOException with stream: 1 failed
+
+# Created on 2024-01-25T18:35:40.213
+Unexpected IOException with stream: )
+
+
+# Created on 2024-01-25T18:35:40.214
+Unexpected IOException with stream: 6
+
+# Created on 2024-01-25T18:35:40.215
+Unexpected IOException with stream:  Steps (
+
+# Created on 2024-01-25T18:35:40.216
+Unexpected IOException with stream: 1 failed
+
+# Created on 2024-01-25T18:35:40.217
+Unexpected IOException with stream: , 
+
+# Created on 2024-01-25T18:35:40.217
+Unexpected IOException with stream: 5 passed
+
+# Created on 2024-01-25T18:35:40.218
+Unexpected IOException with stream: )
+
+
+# Created on 2024-01-25T18:35:40.219
+Unexpected IOException with stream: 0m
+
+# Created on 2024-01-25T18:35:40.220
+Unexpected IOException with stream: 18.430s
+
+
+# Created on 2024-01-25T18:35:40.221
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T18:35:40.222
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T18:35:40.224
+Unexpected IOException with stream: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.227)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GANESH', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.227, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\win1o\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51259}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2d1370b34445056cbedb898292460def
+*** Element info: {Using=xpath, value=(//*[text()='My Account'])[4]}
+
+# Created on 2024-01-25T18:35:40.225
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T18:35:40.225
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+# Created on 2024-01-25T18:35:40.226
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T18:35:40.227
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+# Created on 2024-01-25T18:35:40.228
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T18:35:40.229
+Unexpected IOException with stream: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created on 2024-01-25T18:35:40.230
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T18:35:40.231
+Unexpected IOException with stream: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+
+# Created on 2024-01-25T18:35:40.231
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T18:35:40.232
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+
+# Created on 2024-01-25T18:35:40.233
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T18:35:40.234
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+
+# Created on 2024-01-25T18:35:40.235
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T18:35:40.236
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+
+# Created on 2024-01-25T18:35:40.237
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T18:35:40.237
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+
+# Created on 2024-01-25T18:35:40.238
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T18:35:40.239
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+
+# Created on 2024-01-25T18:35:40.240
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T18:35:40.241
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+
+# Created on 2024-01-25T18:35:40.242
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T18:35:40.242
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+
+# Created on 2024-01-25T18:35:40.243
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T18:35:40.245
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+
+# Created on 2024-01-25T18:35:40.246
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T18:35:40.247
+Unexpected IOException with stream: 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+
+# Created on 2024-01-25T18:35:40.248
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T18:35:40.249
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+
+# Created on 2024-01-25T18:35:40.250
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T18:35:40.251
+Unexpected IOException with stream: 	at utility.SeleniumOperations.captureText(SeleniumOperations.java:119)
+
+# Created on 2024-01-25T18:35:40.251
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T18:35:40.252
+Unexpected IOException with stream: 	at map.Login.profileDone(Login.java:81)
+
+# Created on 2024-01-25T18:35:40.253
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T18:35:40.254
+Unexpected IOException with stream: 	at ?.Application shows user profile to user(file:///G:/ProjectJan2024Batch/NinjaStore/src/test/resources/Business_Logic/Login.feature:13)
+
+# Created on 2024-01-25T18:35:40.255
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T18:35:40.256
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T18:35:40.256
+Unexpected IOException with stream: 
+
+
+# Created on 2024-01-25T18:35:41.042
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGDirectoryTestSuite,runner.RunTest,null,null,null
+
+
